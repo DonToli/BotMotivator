@@ -77,7 +77,7 @@ public class TelegramBot extends TelegramLongPollingBot {
                 }
 
             }
-
+//тест
             switch (messageText) {
                 case "/start" -> {
                     registerUser(update.getMessage());
